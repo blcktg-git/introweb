@@ -1,0 +1,30 @@
+html,body{
+	height: 100%
+}
+body{
+	background: linear-gradient(to right, rgba(251,166,225,1) 0%, rgba(251,166,225,1) 17%, rgba(252,236,252,1) 100%);
+}
+h1{
+	color:white;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 0.0em;
+	text-align: center;
+	text-shadow:0 0 0.2em black;
+}
+.galeria{
+	
+	display: flex;
+	justify-content:space-around;
+	margin:0 auto;
+	width:80%;
+}
+.galeria div{
+	filter:grayscale(1)
+}
+
+}
+.galeria div:hover{
+	filter:grayscale(0)
+
+}
+
